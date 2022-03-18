@@ -1,0 +1,214 @@
+/* Universal Selector */
+* {
+  margin:0;
+  padding:0; 
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Element Selectors */
+body {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 20px;
+}
+
+main {
+  padding: 60px 0;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FDF8F5;
+}
+
+header,
+footer {
+  height: 50px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #002383;
+  opacity: 90%;
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #00b7ff;
+  opacity: 90%;
+}
+
+footer {
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #4F4846;
+  color: #FDF8F5;    
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #DDAF94;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4F4846;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #4F4846;
+  color: #FDF8F5;
+}
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.contact-section{
+  text-align: center;
+  margin-top:400px;
+}
+
+.aboutMe {
+  text-align: center;
+
+}
+
+.text-right {
+  text-align: right;
+}
+
+  
+#thumbnail{
+  border: 5px solid #ddd; 
+  border-radius: 10px;  
+  padding: 5px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 430px; 
+  display: inline-block
+}
+
+#thumbnail2{
+  border: 5px solid #ddd; 
+  border-radius: 10px; 
+  padding: 5px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 430px; 
+  display: inline-block
+}
+
+#thumbnail3{
+  border: 5px solid #ddd;
+  border-radius: 10px;  
+  padding: 5px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 430px; 
+  display: inline-block
+}
+
+.thumbnail:hover, #thumbnail:hover, #thumbnail2:hover, #thumbnail3:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#Padding{
+  margin-bottom: 400px;
+}
+
+#ContactPadding{
+  padding-top: 250px;
+  margin-top: 250px;
+}
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  header ul li {
+    background: #ff0000;
+    text-align: center;
+    font-size: small;
+  }
+}
+
+
+/* Large smartphones - navbar changes color and text shrinks, page is more centered */
+
+@media screen and (max-width: 768px) {
+   figcaption, figure {
+    padding: 5px;
+    margin-left: 10%;
+  }
+
+  nav {
+    background-color: #ff0000;
+    text-align: center;
+    font-size: small;
+  }
+
+
+  h1, h2, h4, #contact-section {
+  padding: 5px;
+  margin-left: 20%;
+  }
+
+  #thumbnail, #thumbnail2, #thumbnail3 {
+    padding: 5px;
+    margin-left: 5%;
+    }
+
+}
+
+/* Small smartphones - conatct me section changed color */
+@media screen and (max-width: 576px) {
+  form, input, textarea {
+    background-color: #ff0000;
+    }
+  }
