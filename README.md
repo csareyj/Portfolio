@@ -25,4 +25,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![Screenshot](./assets/images/MockUp2.JPG)
 
 
-LINK TO DEPLOYED APPLICATION: [CLICK HERE]()
+LINK TO DEPLOYED APPLICATION: [CLICK HERE](https://csareyj.github.io/Portfolio/)
