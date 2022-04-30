@@ -156,7 +156,27 @@ button {
   display: inline-block
 }
 
-.thumbnail:hover, #thumbnail:hover, #thumbnail2:hover, #thumbnail3:hover{
+#thumbnail4{
+  border: 5px solid #ddd;
+  border-radius: 10px;  
+  padding: 5px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 430px; 
+  display: inline-block
+}
+
+#thumbnail5{
+  border: 5px solid #ddd;
+  border-radius: 10px;  
+  padding: 5px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 430px; 
+  display: inline-block
+}
+
+.thumbnail:hover, #thumbnail:hover, #thumbnail2:hover, #thumbnail3:hover,  #thumbnail4:hover, #thumbnail5:hover{
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
 }
 
