@@ -39,7 +39,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #FDF8F5;
+  color: #00c3ff;
 }
 
 header,
@@ -73,7 +73,7 @@ img {
   margin: 20px auto;
 }
 
-form {
+.container {
   /* Center the form on the page */
   margin: 0 auto;
   width: 500px;
@@ -113,7 +113,7 @@ button {
 
 .contact-section{
   text-align: center;
-  margin-top:400px;
+  margin-top:200px;
 }
 
 .aboutMe {
@@ -181,7 +181,7 @@ button {
 }
 
 #Padding{
-  margin-bottom: 400px;
+  margin-bottom: 200px;
 }
 
 #ContactPadding{
