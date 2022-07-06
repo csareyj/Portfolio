@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,8 +15,8 @@ html {
 body {
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: grey;
+  color: white;
   text-align: center;
 }
 
@@ -29,33 +31,21 @@ main {
   margin: auto;
 }
 
-
-
-li {
-  display: inline;
-  padding: 0px 20px;
-  text-decoration: none;
+.col-sm-3 {
+  color:black;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-left: 50px;
 }
+
+
 
 a {
   text-decoration: none;
   color: #00c3ff;
 }
 
-header,
-footer {
-  height: 50px;
-  width: 100%;
-  line-height: 60px;
-  background-color: #002383;
-  opacity: 90%;
-}
 
-header {
-  position: fixed;
-  border-bottom: 10px solid #00b7ff;
-  opacity: 90%;
-}
 
 footer {
   margin-top: 0;
@@ -73,14 +63,7 @@ img {
   margin: 20px auto;
 }
 
-.container {
-  /* Center the form on the page */
-  margin: 0 auto;
-  width: 500px;
-  padding: 10px;
-  border: 5px solid #DDAF94;
-  border-radius: 20px;
-}
+
 
 label {
   display: inline-block;
@@ -118,6 +101,7 @@ button {
 
 .aboutMe {
   text-align: center;
+  color: white;
 
 }
 
@@ -125,60 +109,6 @@ button {
   text-align: right;
 }
 
-  
-#thumbnail{
-  border: 5px solid #ddd; 
-  border-radius: 10px;  
-  padding: 5px; 
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 430px; 
-  display: inline-block
-}
-
-#thumbnail2{
-  border: 5px solid #ddd; 
-  border-radius: 10px; 
-  padding: 5px; 
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 430px; 
-  display: inline-block
-}
-
-#thumbnail3{
-  border: 5px solid #ddd;
-  border-radius: 10px;  
-  padding: 5px; 
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 430px; 
-  display: inline-block
-}
-
-#thumbnail4{
-  border: 5px solid #ddd;
-  border-radius: 10px;  
-  padding: 5px; 
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 430px; 
-  display: inline-block
-}
-
-#thumbnail5{
-  border: 5px solid #ddd;
-  border-radius: 10px;  
-  padding: 5px; 
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 430px; 
-  display: inline-block
-}
-
-.thumbnail:hover, #thumbnail:hover, #thumbnail2:hover, #thumbnail3:hover,  #thumbnail4:hover, #thumbnail5:hover{
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
-}
 
 #Padding{
   margin-bottom: 200px;
@@ -198,37 +128,3 @@ button {
   }
 }
 
-
-/* Large smartphones - navbar changes color and text shrinks, page is more centered */
-
-@media screen and (max-width: 768px) {
-   figcaption, figure {
-    padding: 5px;
-    margin-left: 10%;
-  }
-
-  nav {
-    background-color: #ff0000;
-    text-align: center;
-    font-size: small;
-  }
-
-
-  h1, h2, h4, #contact-section {
-  padding: 5px;
-  margin-left: 20%;
-  }
-
-  #thumbnail, #thumbnail2, #thumbnail3 {
-    padding: 5px;
-    margin-left: 5%;
-    }
-
-}
-
-/* Small smartphones - conatct me section changed color */
-@media screen and (max-width: 576px) {
-  form, input, textarea {
-    background-color: #ff0000;
-    }
-  }
